@@ -1,1 +1,0 @@
-select sum(prihodi) group by kategorije

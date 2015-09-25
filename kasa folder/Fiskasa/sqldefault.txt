@@ -1,6 +1,0 @@
-
-
-SELECT *, (IIF([Field]=TRUE,'StringValue1','StringValue2')) AS [NewField] FROM [Table1] ORDER BY (IIF([Field]=TRUE,'StringValue1','StringValue2')) ASC 
-
-
-SELECT   IIF(T.[Field]=TRUE, 'StringValue1', 'StringValue2') AS [NewField],   T.* FROM [Table1] T ORDER BY 1 ASCENDING 

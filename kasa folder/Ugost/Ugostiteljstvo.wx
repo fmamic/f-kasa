@@ -1,6 +1,0 @@
-[GLOBAL]
-VERSION=1
-TAG=UGOSTITELJSTVO
-[WDREPORT]
-LOCAL_DIR=C:\Ugost\Reports and Queries
-GLOBAL_DIR=<RefDir>\Shared Reports and Queries
