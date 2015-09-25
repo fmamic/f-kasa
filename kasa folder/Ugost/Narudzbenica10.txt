@@ -1,0 +1,13 @@
+       Narudžba za stol broj: 1
+       
+Šifra  Naziv            Kolièina        
+========================================
+0102   KAVA S MLIJEKOM        20  KOM   
+0102   KAVA S MLIJEKOM        20  KOM   
+0105   KAVA TEST              20  KOM   
+0103   KAVA 2                 10  KOM   
+0103   KAVA 2                 10  KOM   
+0103   KAVA 2                 14  KOM   
+0104   TEST                   24  KOM   
+0104   TEST                   14  KOM   
+0201   PIVO 0,5 L             14  KOM   

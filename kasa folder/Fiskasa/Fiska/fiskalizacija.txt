@@ -1,0 +1,41 @@
+
+2.1 Slanje raèuna u poreznu - jednostavni naèin
+
+Kako poslati raèun na poreznu:
+Neposredno prije štampanja raèuna Vaš  program treba popuniti request file sa tekstom ovako:
+-----------------------------------------------
+P                                    ( Oznaka R = raèun, P = Ponovljeno slanje raèuna, Z = samo izraèun ZKI-a)
+15/11/2012 23:55:01         ( datum i vrijeme u naznaèenom formatu)
+1                                     ( broj raèuna , iz prometi db ili iz arhiva.db ako je Z)
+10.00; 02000.00;  200.00;     25.00; 100.00 ; 25.00     ( obraèun Poreza toèno tim redom 1.porezna stopa; iznos osnovice koja se obraèunava , iZNOS UKUPNOG OBRAÈUNATOG POREZA)     
+2325.00                                                                    ( oSNOVICA + POREZ)
+G                                                   ( OZNAKA VRSTE PLAÆANJA G= GOTOVINA, K= KARTICA, C= CEK, T= VIRMAN, O= OSTALO)
+12945678931                                  (OIB JEDINSTVENA OZNAKA PODUZETNIKA VUÈE SE IZ OSNOVNI PODACI.DB ILI OD BILO KUDA GDJE GA IMA)
+3.00; 1.00; 0.03                                (OBRAÈUN PNP AKO GA IMA    , FORMAT ISTI KAO POREZ STOPA 3.00; IZNOS OSNOVICE; IZNOS UKUPNO OBRAÈUNATOG POREZA)   
+--------------------------------------------
+naknada ambalaže;  0.50                  ( NAKNADA AMBALAŽE UPRAVO OVAKO KAKO JE NAPISANO AKO JE IMA ) TREBA DODATI U BAZI ARTIKLI I PREKO PROMETI PROSLEDITI U BAZU ARHIVA, 
+0000000670543                               ( BROJ PARAGON BLOKA UKOLIKO ŠALJEMO NAKNADNO RAÈUN KOJI JE NASTAO NPR ZA VREME NESTANKA STRUJE (OPCIJA)
+ 7.00                                              ( IZNOS KOJI NE PODLIJEŽE POREZU , ALI TO JE OPCIJA TOGA KOD NAS NEMA
+
+1. Prvi red može biti R (obièni raèun) ili P (ponovljeni raèun, odnosno naknadna dostava) ili Z (izraèun ZKI).
+2. Drugi red je datum i vrijeme izdavanja raèuna. To nije trenutno vrijeme (npr ako se šalje ponovljeni raèun), nego ono vrijeme koje se štampa na raèunu. Format mora biti kako je prikazan, ukljuèujuæi i separatore "/" i ":".
+3. Treæi red je broj raèuna.
+4. Èetvrti red je stopa PDV, osnovica te iznos PDVa. Tim redosljedom. Odvojeni znakom ; Decimalni znak mora biti toèka. Decimalni dio mora imati dvije znamenke. Zadnji znak na desnoj strani ne smije biti ;.
+5. Peti red je ukupni iznos raèuna.
+6. Šesti red je naèin plaæanja. G = gotovina, K = kartice, C = èek, T = transakcijski raèun, O = ostalo. Prema dokumentaciji.
+7. Sedmi red je OIB radnika koji izdaje raèun.
+8. Osmi red je porez na potrošnju. Stopa, Osnovica i iznos. Ako nema poreza na potrošnju ostavite taj red prazan. Iznosi su odvojeni znakom ; a decimalni znak je toèka.
+9. Deveti red je naknada. Prvi dio je opis, zatim znak ; i nakon toga iznos naknade. Ako nema naknade ostavite taj red prazan. Prazan red znaèi da on postoji, ali nema nikakvih slova, samo CRLF.
+10. Deseti red je redni broj paragon bloka kad se prepisuje u blagajnu npr nakon nestanka struje. Za normalne raèune ostavite prazni red.
+11. Jedanaesti red je iznos koji ne podliježe oporezivanju. Naprimjer boravišna pristojba. Ako nema, ostavite prazni red.
+12. Ostali redovi æe se popunjavati u buduænosti kad se pokaže potreba.
+
+Prije slanja raèuna treba izbrisati response file (ako veæ nije). Onda se popuni request file kako je gore opisano. Odmah nakon toga poènite èitati response file. Treba pokušavati èitati nekoliko puta. Dok ne istekne recimo 10 sekunda. Ako se u 10 sekunda nije napunio response file, onda vjerojatno ni neæe.
+Ispravni response file izgleda ovako:
+72680710-8f9a-4a72-b850-622d0d5dbb66;57aa5e54-7ad3-4f43-ae7e-bd9ad17509a6;9c23efbd9f9b63bc29228ad32eeb27ff
+Prvih 36 slova je JIR, koji je jedini koristan i kojeg treba naštampati na raèun. Drugih 36 slova je UUID. Treæih 32 slova je zaštitni kod (ZKI). Odvojeni su znakom ;
+U sluèaju greške JIR i UUID æe biti prazni, ali ZKI æe biti u responseu (iako to nije 100% sigurno). U tom sluèaju na raèun se treba isprintati ZKI. To je zamjena za JIR, dok se ne taj raèun ponovno pošalje na poreznu nakon uklonjenog kvara. Onda æe dobiti JIR. Ovako greška izgleda u response file:
+                                    ;                                    ;9c23efbd9f9b63bc29228ad32eeb27ff
+U sluèaju još veæe greške, èak niti zaštitni kod se neæe napuniti u response file. Ne znam dali se smije isprintati raèun bez ikakvog koda u tom sluèaju. Ne vjerujem.
+Kad se proèita response file  program ga treba izbrisati. Tako se izbjegnu problemi u buduænosti kad bi se mogao proèitati stari sadržaj filea ako se greškom DOS.Systray program nije startao.
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OIB>18727196161</OIB>
+  <USustavuPDV>True</USustavuPDV>
+  <OznakaSlijednosti>P</OznakaSlijednosti>
+  <OznakaPoslProstora>1</OznakaPoslProstora>
+  <OznakaNaplatnogUredjaja>1</OznakaNaplatnogUredjaja>
+  <Ulica>Krčka</Ulica>
+  <KucniBroj>13</KucniBroj>
+  <DodatakKucnomBroju>.</DodatakKucnomBroju>
+  <Posta>52440</Posta>
+  <Naselje>Poreč</Naselje>
+  <Opcina>Poreč</Opcina>
+  <RadnoVrijeme>8-19, ljeti 7-22,  zimi 0-19</RadnoVrijeme>
+  <DatumPocetka>1.1.2013. 0:00:00</DatumPocetka>
+  <OIBprogramera>70332978877</OIBprogramera>
+  <CertificateSubject />
+  <CertificateFile>C:\Users\Fika\Desktop\Kasa\racuni\fiskal1.pfx</CertificateFile>
+  <CertificatePass>MTcwMjE=</CertificatePass>
+  <RequestFile>C:\Users\Fika\Desktop\Kasa\Racun.txt</RequestFile>
+  <ResponseFile>C:\Users\Fika\Desktop\Kasa\racuni\response.txt</ResponseFile>
+  <Url />
+  <LogFolder>C:\Users\Fika\Desktop\Kasa\racuni</LogFolder>
+  <Password>MTcwMjE=</Password>
+  <Timeout>9</Timeout>
+</Configuration>

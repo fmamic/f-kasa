@@ -1,0 +1,101 @@
+Od 01.01.2013.obveznici fiskalizacije su srednji i veliki poduzetnici koji 
+vrše naplatu gotovinom.
+Isto tako i poduzetnici koji se bave djelatnošæu ugostiteljstva bez obzira u 
+koju velièinu poduzetnika
+spadaju.
+Ako poduzeæe ima više djelatnosti, a izmeðu ostalog bavi se i 
+ugostiteljstvom tad je to poduzeæe
+obveznik fiskalizacije u svim djelatnostima od 01.01.2012.
+
+
+Fiskalizacija se takoðer odnosi i na veleprodajne raèune ako su isti 
+naplaæeni gotovinom.
+
+Raèuni osim do sad propisanih elemenata po zakonu o PDV-u moraju imati i 
+slijedeæe:
+- vrijeme (sat i minut) izdavanja
+- oznaku operatera (prodavaèa) - ne mora biti ime i prezime, može biti 
+prodavaè a ili samo
+  ime, a uz to se mora poslati poreznoj OIB prodavaèa (koji ne mora biti 
+naznaèen na raèunu)
+- oznaka naèina plaæanja: ne smije pisati gotovina jer se pod gotovinom 
+podrazumijeva i èek
+  i kartica...mora pisati: novèanice, èek, kartica ili ostalo (ako je raèun 
+naplaæen kombinirano)
+- broj raèuna mora biti u tri dijela koji su odvojeni sa - (npr. 1-POSL1-1)
+  Vodeæe nule ne smiju biti u broju raèuna.
+  Broj raèuna sadrži: na 1. mjestu broj raèuna
+                      na 2. mjestu oznaku poslovnice (može biti brojèana ili 
+slovna ili kombinirana)
+                      na 3. mjestu oznaku naplatnog ureðaja (ako poslovnica 
+ima više kasa onda svaka
+                                                             izdaje svoje 
+raèune od br.1 do n)
+
+Svi poduzetnici bi trebali prilagoditi izgled raèuna od 01.01.2013. bez 
+obzira da li su obveznici
+fiskalizacije od 01.01.ili ne. Ako to ne uèine onda od datuma kad postaju 
+obveznici fiskalizacije
+prvi fiskalni raèun mora nositi broj 1.
+
+I na veleprodajnim raèunima mora biti vrijeme izdavanja i osoba koja je 
+izdala raèun.
+
+Ako se pokvari naplatni ureðaj, kvar se mora ukloniti u roku od 48 sati. Za 
+to vrijeme raèuni
+se moraju izdavati iz uvezane knjige raèuna koja se ovjerava u poreznoj 
+upravi (a koju sada koriste
+oni koji plaæaju paušalni porez). Kad se naplatni ureðaj popravi svi ti 
+raèuni moraju se ukucati
+u naplatni ureðaj, zatražiti JIR za svaki i taj JIR upisati i u one ruène 
+raèune. Ta knjiga æe od 20.12.
+biti u prodaji u NN i moæi æe se od tog datuma ovjeriti na poreznoj upravi.
+
+Obavezno treba napisati interni akt u kojem æe biti pobrojene poslovne 
+jedinice (naziv mora biti
+potpuno isti kao što æe pisati na raèunima), opreateri (prodavaèi) koji æe 
+izdavati raèune i
+slijednost raèuna tj.na koji naèin æe iæi brojevi raèuna ako poslovnica ima 
+više naplatnih ureðaja.
+Ta odluka mora biti u svakom poslovnom prostoru i na zahtjev inspekcije mora 
+se dati u uvid, u protivnom
+gle èuda...kazna.
+
+Do kraja 2012.poreznoj se moraju poslati podaci o poslovnom prostoru sa 
+nazivom poslovnice (kako æe se
+pojavljivati na raèunu), radno vrijeme poslovnice i radne dane.
+Ako se mijenja radno vrijeme, poduzetnik je dužan obavijestiti poreznu 
+upravu 1 dan ranije.
+
+Od 01.07.2013.mora se nalijepiti nova naljepnica o fiskalizaciji na vidnom 
+mjestu pa i u veleprodaji.
+Do 30.06.2013.vrijedi ona naljepnica od PDV-a o izdavanju raèuna.
+
+Porezna æe kroz fiskalizaciju provjeravati radno vrijeme, pa je vrlo bitno 
+da se djelatnici
+prijavljuju sa svojom šifrom. U protivnom ako rade sa jednom, tom æe se 
+djelatniku zaraèunati
+prekovremeni radi i ups...kazna. Takoðer æe vidjeti izdaju li se raèuni 
+nakon završetka ili prije
+poèetka radnog vremena.
+
+
+Od 01.04. obveznici fiskalizacije postaju trgovine na veliko i malo (ako se 
+ne bave i ugostiteljstvom)
+od 01.07. postaju svi ostali smrtnici (dimnjaèari, frizeri, odvjetnici, 
+knjigovoðe i sl.koji vrše naplatu gotovinom)
+Dimnjaèari i serviseri i ostali koji obavljaju usluge na terenu morat æe 
+imati male naplatne ureðaje
+sa pristupom na internet i na licu mjesta izdati raèun...(ovog se sjetio 
+vjerojatno netko tko ne živi na planeti Zemlji).
+
+U poreznoj upravi bit æe postavljene kutije u koje æe graðani moæi ubacivati 
+raèune na kojima nema JIR-a, pa
+æe porezna uprava na taj naèin kontrolirati da li je taj raèun naknadno 
+poslan na fiskalizaciju. Isto tako
+moæi æe se ti raèuni poslati SMS-om. Ako za poslani raèun porezna utvrdi da 
+nije naknadno zatražen JIR...nevjerojatno ali
+opet kazna....
+
+U tom zakonu jedino što je doreèeno do kraja i kristalno jasno jesu iznosi i 
+uvjeti kažnjavanja.

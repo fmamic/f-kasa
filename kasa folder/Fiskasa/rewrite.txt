@@ -1,0 +1,17 @@
+var
+  F: TextFile;
+begin
+  AssignFile(F, 'C:\Tor\Racun.txt');
+  Rewrite(F);
+  WriteLn(F, Edit1.Text);
+  WriteLn(F, Edit2.Text);
+  WriteLn(F, Edit3.Text);
+  WriteLn(F, Edit4.Text);
+  WriteLn(F, Edit5.Text);
+  WriteLn(F, Edit6.Text);
+  WriteLn(F, Edit7.Text);
+  WriteLn(F, Edit8.Text);
+  WriteLn(F, Edit9.Text);
+  WriteLn(F, Edit10.Text);
+  CloseFile(F);
+end;

@@ -1,0 +1,10 @@
+R                             oznaka raèun ili P ponovno slanje
+03/01/2013 23:00:01 datum vrijeme
+5                               broj raèuna
+10,00; 10.00; 1,00       Obraèun Pdv-a (iznos, iznoskoji se obraèunava, suma poreza)
+11,00                         Ukupni iznos raèuna
+G                               Naèin plaæanja 
+12323232323              OIB
+3,00; 10,00; 0,03         obraèun PNP
+
+

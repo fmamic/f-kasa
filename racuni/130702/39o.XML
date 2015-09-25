@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soap:Body>
+    <tns:RacunOdgovor Id="G0xdc05e080-4D" xsi:schemaLocation="http://www.apis-it.hr/fin/2012/types/f73 ../schema/FiskalizacijaSchema.xsd " xmlns:tns="http://www.apis-it.hr/fin/2012/types/f73">
+      <tns:Zaglavlje>
+        <tns:IdPoruke>c7fc91f4-e7a2-4c05-a795-824130fd76e0</tns:IdPoruke>
+        <tns:DatumVrijeme>02.07.2013T23:26:51</tns:DatumVrijeme>
+      </tns:Zaglavlje>
+      <tns:Jir>8db68365-0258-4a74-a6d8-bf236917bf2b</tns:Jir>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+  <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+  <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+  <Reference URI="#G0xdc05e080-4D">
+    <Transforms>
+      <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+      <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+    </Transforms>
+    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+    <DigestValue>9Tqblqn3odewbpXv5kYUrGlw5RA=</DigestValue>
+  </Reference>
+</SignedInfo>
+    <SignatureValue>cuBzBve3riZiNvfi2XAwngglCVY8qrHiD2JnDRb5BvCd9KxktfBy9LolxoCvohkDw7qr7SoAY10Ok1JkaZa6KSr8hdVMtYsDfyGTaz47u5x3KO/CpoYbHuewhKNRg09alcrlVVBuCrob0+oP4Bwa6CG1q+WUZ9YJwpXcOvQCZer7QSGCwiJtZeRoPmZzzOgpwzIYsv8k3coALi11YE8/ds3C0PdDwF5CWueScunBUcoyS11vNhG1mBmaaNMunuH4KULBRwHNU6QIucDfpEsqdmlJtWI7rZ2wyNhj5y/NAQV4OUcYdlxQmFHEPJVlPj9UkUISFGIho9YAPL0wWgQrMQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIExDCCA6ygAwIBAgIEPssQcTANBgkqhkiG9w0BAQUFADArMQswCQYDVQQGEwJIUjENMAsGA1UEChMERklOQTENMAsGA1UECxMEREVNTzAeFw0xMjA5MjYwODExNDlaFw0xNDA5MjYwODQxNDlaMHgxCzAJBgNVBAYTAkhSMQ0wCwYDVQQKEwRGSU5BMQ0wCwYDVQQLEwRERU1PMREwDwYDVQQLEwhQb3Nsb3ZuaTEgMB4GA1UECxMXQVBJUyBJVCBELk8uTy4gODA1NDEzNzIxFjAUBgNVBAMTDWZpc2thbGNpc3Rlc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC81TtKtJ84emCS/HK7gSovjNdluZWB0DbIMq3cBFpOpmurcbDCJ1Z17XiPLa+UWYIqyAjHQyDnG/H4c5EeGoli9swz5QcZFBmyXTpSd3GuMROgUAd4bcvbw1/HDONE5cE8PL11GIy8gi5ANZkujalYmx+1ImnhHxx1Bh2UJ/bcl2eXPtieBQBwtClATSzseB5FFz8LcSyfzM7h39PsAIZ0p8YzH7W+307gvgrJHYb/n4ADwlxieHqb5j74DVD0rUPcUE5d0nSZ7hfEkW8xICgs1Ly6Vu3w7Z5M8vb4QmoPnlT1EaHCXiweuK6vjkUk8RQmYY4lTFBs8zHiG7h4n9bPAgMBAAGjggGhMIIBnTAOBgNVHQ8BAf8EBAMCBaAwQgYDVR0gBDswOTA3BgkrfIhQBR8FBAIwKjAoBggrBgEFBQcCARYcaHR0cDovL2RlbW8tcGtpLmZpbmEuaHIvY3BzLzCBzgYDVR0fBIHGMIHDMEKgQKA+pDwwOjELMAkGA1UEBhMCSFIxDTALBgNVBAoTBEZJTkExDTALBgNVBAsTBERFTU8xDTALBgNVBAMTBENSTDcwfaB7oHmGT2xkYXA6Ly9kZW1vLWxkYXAuZmluYS5oci9vdT1ERU1PLG89RklOQSxjPUhSP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3QlM0JiaW5hcnmGJmh0dHA6Ly9kZW1vLXBraS5maW5hLmhyL2NybC9kZW1vY2EuY3JsMCsGA1UdEAQkMCKADzIwMTIwOTI2MDgxMTQ5WoEPMjAxNDA5MjYwODQxNDlaMB8GA1UdIwQYMBaAFHpgI45InTJrpOUt3bhZtJT8QmKeMB0GA1UdDgQWBBRgIJsZevSn6kDuSzChmaa9Sqr6sjAJBgNVHRMEAjAAMA0GCSqGSIb3DQEBBQUAA4IBAQCo5kJWaNjgS+UG7XQHsHersDFk4K5W/Y2Pbubary0j3IwJrveHbUR3HOb0KiVenF6+1FL3sCI/2tfH3wSszWL8Gkit8jUudTo5vDyLqEUXYDHlFUBwseudsPkUxPiQ6HuuFd3PiUAWf00chXD38eTjfapNu6VeQt4EORSO+rEXdhWihVb5HxFIVPTkqHmq1KINwtV9+thwE3hNMwacRa4gwTB1O+jadVlJQMq+kgwnLGLBcwr0W+x1ye6MPSYEUxSNFGHPG/evP9DRLwJtR3ngvlCDusnO+A75Nn40VYcoIjw6EN1V+plK+HkLye0zzLsnHIWTSGfZ2sQVG5xCURiI</X509Certificate><X509IssuerSerial><X509IssuerName>OU=DEMO, O=FINA, C=HR</X509IssuerName><X509SerialNumber>1053495409</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature>
+    </tns:RacunOdgovor>
+  </soap:Body>
+</soap:Envelope>
